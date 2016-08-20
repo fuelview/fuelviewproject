@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mondoDS": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://localhost/events",
+    "database": "fuelview",
+    "password": "particle_events",
+    "name": "mondoDS",
+    "user": "climberwb",
+    "connector": "mongodb"
   }
 }
